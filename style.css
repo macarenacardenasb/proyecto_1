@@ -1,0 +1,138 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Sedgwick+Ave+Display&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	color: rgba(69, 68, 68, 0.934);
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+
+#info{
+
+	color: white;
+	padding: 15px 0;
+	text-align: center;
+	font-size: 50px;
+	background-color: rgba(85, 78, 78, 0.2);
+	font-family: 'Raleway', sans-serif;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	align-items: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+nav ul li{
+	padding: 0 8px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 7px;
+}
+
+nav ul li a:hover{
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+}
+
+/*---------------------REDES--------------------------------*/
+#redes a{
+	width: 40px;
+	margin: 0 10px;
+}
+
+.fa {
+	padding: 10px;
+	font-size: 20px;
+	width: 40px;
+	text-align: center; 
+	text-decoration: none;
+	border-radius: 50px;
+  }
+
+
+  .fa-instagram {
+	background: #151618;
+	color: white;
+  }
+
+
+  /*----------------------------------------------------------*/
+
+  img{
+    width: 400px;
+  }
+
+  #contenido{
+    display: flex;
+    margin: 0px;
+  }
+
+  #articulos{
+    width: 100%;
+
+  }
+
+  #secciones{
+    display: flex;
+    padding: 40px;
+	line-height: 35px;
+  }
+
+
+
+  h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px; 
+
+  }
+
+  #menu-secundario img{
+    width: 300px;
+	padding: 7px;
+  }
+
+  #secciones2{
+    text-align: center;
+  }
+.foto{
+	display: inline-block;
+}
+
+.foto1{
+	height: 350px;
+	transition: transform .2s;
+}
+
+.foto1:hover{
+	transform: scale(1.2);
+}
+
+
